@@ -10,7 +10,7 @@ function App() {
       </header>
       <section>
         I'm a developer working on both the front end and back end with knowledge and
-         enthusiasm for the web and mobile platforms, especially in these areas:
+         enthusiasm for the web and mobile platforms, especially these areas:
       </section>
       <section id="interests">
         <span className="expertise">JavaScript</span>
