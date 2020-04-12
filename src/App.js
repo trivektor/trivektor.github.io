@@ -22,6 +22,7 @@ function App() {
         <span className="expertise">Python</span>
         <span className="expertise">React Native</span>
         <span className="expertise">Tensorflow</span>
+        <span className="expertise">GraphQL</span>
         <span className="expertise">Web Assembly</span>
         <span className="expertise">Machine Learning</span>
         <span className="expertise">Augmented Reality</span>
