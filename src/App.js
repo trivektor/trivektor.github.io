@@ -4,25 +4,31 @@ import './App.scss';
 
 function App() {
   return (
-    <div style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        height: "100%",
-      }}>
+    <div id="introduction">
+      <header id="heading">
+        Tri Vuong
+      </header>
       <div>
-        <img src="https://img.icons8.com/emoji/96/000000/construction-emoji.png" />
-        {" "}
-        <img src="https://img.icons8.com/color/96/000000/tow-truck.png" />
-        {" "}
-        <img src="https://img.icons8.com/color/96/000000/garbage-truck.png"/>
-        {" "}
-        <img src="https://img.icons8.com/color/96/000000/construction-trowel--v1.png"/>
+        I'm a developer working on both the front end and back end with knowledge and
+         passion for web and mobile platforms, especially in these areas:
+         JavaScript, Ruby/Rails, Go, iOS/RubyMotion/React Native/machine
+         learning/augmented reality, user experience, computer science, software
+         development best practices and design patterns.
       </div>
-      <h1 style={{fontWeight: 500}}>
-        TRIVUONG.DEV IS UNDER CONSTRUCTION
-      </h1>
+      <div id="social-networks">
+        <a href="https://github.com/trivektor">
+          <img src="https://img.icons8.com/doodle/48/000000/github--v1.png"/>
+        </a>
+        <a href="https://twitter.com/trivektor">
+          <img src="https://img.icons8.com/doodle/48/000000/twitter.png"/>
+        </a>
+        <a href="https://www.linkedin.com/in/tvuong/">
+          <img src="https://img.icons8.com/doodle/48/000000/linkedin-circled.png"/>
+        </a>
+        <a href="https://www.instagram.com/trivektor">
+          <img src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"/>
+        </a>
+      </div>
     </div>
   );
 }
