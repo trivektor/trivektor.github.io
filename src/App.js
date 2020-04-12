@@ -10,16 +10,22 @@ function App() {
       </header>
       <section>
         I'm a developer working on both the front end and back end with knowledge and
-         passion for the web and mobile platforms, especially in these areas:
+         enthusiasm for the web and mobile platforms, especially in these areas:
       </section>
       <section id="interests">
         <span className="expertise">JavaScript</span>
         <span className="expertise">Ruby</span>
         <span className="expertise">Rails</span>
-        <span className="expertise">Go Lang</span>
+        <span className="expertise">GoLang</span>
+        <span className="expertise">Rust</span>
+        <span className="expertise">Swift</span>
+        <span className="expertise">Python</span>
         <span className="expertise">React Native</span>
+        <span className="expertise">Web Assembly</span>
         <span className="expertise">Machine Learning</span>
         <span className="expertise">Augmented Reality</span>
+        <span className="expertise">Software Architecture</span>
+        <span className="expertise">Distributed Systems</span>
       </section>
       <section>Check out my other profiles</section>
       <section id="social-networks">
