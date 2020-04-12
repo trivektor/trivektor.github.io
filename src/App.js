@@ -21,6 +21,7 @@ function App() {
         <span className="expertise">Swift</span>
         <span className="expertise">Python</span>
         <span className="expertise">React Native</span>
+        <span className="expertise">Tensorflow</span>
         <span className="expertise">Web Assembly</span>
         <span className="expertise">Machine Learning</span>
         <span className="expertise">Augmented Reality</span>
@@ -30,16 +31,24 @@ function App() {
       <section>Check out my other profiles</section>
       <section id="social-networks">
         <a href="https://github.com/trivektor">
-          <img src="https://img.icons8.com/doodle/48/000000/github--v1.png"/>
+          <img
+            src="https://img.icons8.com/doodle/48/000000/github--v1.png"
+            srcset="https://img.icons8.com/doodle/96/000000/github--v1.png 2x" />
         </a>
         <a href="https://twitter.com/trivektor">
-          <img src="https://img.icons8.com/doodle/48/000000/twitter.png"/>
+          <img
+            src="https://img.icons8.com/doodle/48/000000/twitter.png"
+            srcset="https://img.icons8.com/doodle/96/000000/twitter.png 2x" />
         </a>
         <a href="https://www.linkedin.com/in/tvuong/">
-          <img src="https://img.icons8.com/doodle/48/000000/linkedin-circled.png"/>
+          <img
+            src="https://img.icons8.com/doodle/48/000000/linkedin-circled.png"
+            srcset="https://img.icons8.com/doodle/96/000000/linkedin-circled.png 2x" />
         </a>
         <a href="https://www.instagram.com/trivektor">
-          <img src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"/>
+          <img
+            src="https://img.icons8.com/doodle/48/000000/instagram--v1.png"
+            srcset="https://img.icons8.com/doodle/96/000000/instagram--v1.png 2x" />
         </a>
       </section>
     </div>
