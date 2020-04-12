@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.scss"],"names":[],"mappings":"AAAA,gBACE,WAAY,CACZ,QAAS,CACT,SAAU,CACX,KAGC,6BAA+B,CAC/B,eAAgB","file":"main.dd9805a7.chunk.css","sourcesContent":["html, body, #root {\n  height: 100%;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: 'Lato', sans-serif;\n  font-weight: 200;\n}\n"]}
