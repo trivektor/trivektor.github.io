@@ -4,9 +4,7 @@ html, body, #root {
   padding: 0;
   -webkit-overflow-scrolling: touch;
   overflow: auto;
-  background: #76b852;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #76b852, #28b351);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #76b852, #28b351); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000;
 }
 
 body {
@@ -49,10 +47,9 @@ section {
   padding: 0 12px;
   border-radius: 5px;
   margin: 0 4px 4px 0;
-  background: #fff;
-  color: #28b351;
+  background: #639a67;
+  color: #d8ebb5;
   text-transform: uppercase;
-  font-weight: 300;
 }
 
 #interests {
