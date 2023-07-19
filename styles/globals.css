@@ -2,7 +2,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 26px;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(
@@ -58,12 +58,12 @@ h3 {
 }
 
 #main {
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   height: 100%;
   padding: 30px 20px;
   background: #fff;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 26px -2px rgba(0, 0, 0, 0.5);
 }
 
 .material-symbols-outlined {

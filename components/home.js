@@ -20,7 +20,7 @@ const Home = () => {
 
           <img
             src={profilePic.src}
-            height={200}
+            height={140}
             style={{ display: "block", margin: "0 auto" }}
           />
           <nav id="navbar">
@@ -30,7 +30,11 @@ const Home = () => {
             >
               Resume
             </a>
-            /<a href="mailto:trivektor@gmail.com">Email</a>/
+            /
+            <a target="_blank" href="mailto:trivektor@gmail.com">
+              Email
+            </a>
+            /
             <a href="https://github.com/trivektor" target="_blank">
               Github
             </a>
