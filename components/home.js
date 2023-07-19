@@ -20,7 +20,7 @@ const Home = () => {
 
           <img
             src={profilePic.src}
-            height={140}
+            height={130}
             style={{ display: "block", margin: "0 auto" }}
           />
           <nav id="navbar">
