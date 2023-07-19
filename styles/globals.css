@@ -1,9 +1,11 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 21px;
+  font-size: 18px;
+  line-height: 30px;
   margin: 0;
   padding: 0;
+  background-color: #f8ca08;
 }
 
 h1,
@@ -13,9 +15,11 @@ h3 {
 }
 
 #navbar {
-  padding: 30px;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   text-align: center;
-  display: none;
 }
 
 #navbar ul {
@@ -27,10 +31,28 @@ h3 {
 #navbar ul li {
   display: inline;
   margin: 20px;
-  text-transform: uppercase;
+}
+
+#navbar a {
+  color: inherit;
+  text-decoration: none;
+  margin: 5px;
+}
+
+#navbar ul li .icon {
+  vertical-align: text-bottom;
 }
 
 #main {
-  margin-right: max(20px, 20%);
-  margin-left: max(20px, 20%);
+  width: 400px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.material-symbols-outlined {
+  vertical-align: text-bottom;
+  margin-right: 5px;
 }

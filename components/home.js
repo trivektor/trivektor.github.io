@@ -3,28 +3,39 @@ import profilePic from "./picofme.png";
 const Home = () => {
   return (
     <>
-      <nav id="navbar">
-        <ul>
-          <li>Resume</li>
-          <li>Projects</li>
-          <li>Tech Stack</li>
-          <li>Links</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
       <main id="main">
         <div>
+          <h1
+            style={{
+              textAlign: "center",
+              fontWeight: 700,
+              textTransform: "uppercase",
+              fontSize: 50,
+              fontStyle: "oblique",
+            }}
+          >
+            Meet Tri!
+          </h1>
+
           <img
             src={profilePic.src}
             height={200}
-            style={{ float: "left", margin: "0 40px 0 0" }}
+            style={{ display: "block", margin: "0 auto" }}
           />
-          <h1>Meet Tri!</h1>
-          <p
-            style={{
-              lineHeight: 1.8,
-            }}
-          >
+          <nav id="navbar">
+            <a
+              href="https://docs.google.com/document/d/1ludtuLBCF1Too4wHOXu6xN5O5L_aej_L1foKm_cOwbo/edit?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
+            /<a href="mailto:trivektor@gmail.com">Email</a>/
+            <a href="github.com/trivektor" target="_blank">
+              Github
+            </a>
+          </nav>
+
+          <p>
             A seasoned JavaScript developer with over 10 years of hands-on
             experience. With a deep understanding of frontend development, Tri
             has honed his skills in both Vue and React frameworks. His expertise
