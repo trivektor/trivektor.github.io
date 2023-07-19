@@ -1,147 +1,57 @@
+import profilePic from "./picofme.png";
+
 const Home = () => {
   return (
-    <div className="h-screen px-8 py-4 bg-zinc-900 text-white font-extralight">
-      <h1 className="text-2xl mb-4">Hi 👋 My name is Tri Vuong</h1>
-      <p>I'm a JS developer based in Ho Chi Minh City 🇻🇳 and Los Angeles 🇺🇲</p>
-      <p>You can contact me at trivektor (gmail)</p>
-      <h2 className="mt-4 mb-4">Skills</h2>
-      <div className="flex">
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-          rel="noreferrer"
-        >
+    <>
+      <nav id="navbar">
+        <ul>
+          <li>Resume</li>
+          <li>Projects</li>
+          <li>Tech Stack</li>
+          <li>Links</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <main id="main">
+        <div>
           <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
-            alt="Javascript"
+            src={profilePic.src}
+            height={200}
+            style={{ float: "left", margin: "0 40px 0 0" }}
           />
-        </a>
-        <a href="https://www.php.net/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
-            alt="PHP"
-          />
-        </a>
-        <a
-          href="https://www.ruby-lang.org/en/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ruby-colored.svg"
-            alt="Ruby"
-          />
-        </a>
-        <a href="https://go.dev/doc/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg"
-            alt="Go"
-          />
-        </a>
-        <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/svelte-colored.svg"
-            alt="Svelte"
-          />
-        </a>
-        <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
-            alt="React"
-          />
-        </a>
-        <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
-            alt="Vue"
-          />
-        </a>
-        <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg"
-            alt="Sass"
-          />
-        </a>
-        <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
-            alt="NodeJS"
-          />
-        </a>
-        <a href="https://graphql.org/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/graphql-colored.svg"
-            alt="GraphQL"
-          />
-        </a>
-        <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg"
-            alt="PostgreSQL"
-          />
-        </a>
-        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
-            alt="MySQL"
-          />
-        </a>
-        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-          <img
-            width="32"
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
-            alt="MongoDB"
-          />
-        </a>
-      </div>
+          <h1>Meet Tri!</h1>
+          <p
+            style={{
+              lineHeight: 1.8,
+            }}
+          >
+            A seasoned JavaScript developer with over 10 years of hands-on
+            experience. With a deep understanding of frontend development, Tri
+            has honed his skills in both Vue and React frameworks. His expertise
+            lies in building interactive and scalable web applications that
+            deliver exceptional user experiences. Passionate about creating
+            clean and efficient code, Tri constantly stays up-to-date with the
+            latest industry trends and best practices. His solid foundation in
+            JavaScript, coupled with his mastery of Vue and React, enables him
+            to tackle complex challenges and drive innovative solutions. With a
+            proven track record of successful projects and a knack for
+            problem-solving, he is a valuable asset to any development team.
+          </p>
+        </div>
 
-      <h2 className="mt-4 mb-4">Socials</h2>
-      <div className="flex">
-        {" "}
-        <a
-          href="https://www.github.com/trivektor"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
-            className="w-6"
-          />
-        </a>{" "}
-        <a
-          href="https://www.linkedin.com/in/tvuong"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
-            className="w-6"
-          />
-        </a>{" "}
-        <a
-          href="https://www.twitter.com/trivektor"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"
-            className="w-6"
-          />
-        </a>
-      </div>
-    </div>
+        <h2>Tech Stack</h2>
+        <div>
+          <ul>
+            <li>Vue</li>
+            <li>React</li>
+            <li>Ruby</li>
+            <li>Node</li>
+            <li>Go</li>
+            <li>PostgresSQL</li>
+          </ul>
+        </div>
+      </main>
+    </>
   );
 };
 

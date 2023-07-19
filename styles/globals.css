@@ -1,3 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 21px;
+  margin: 0;
+  padding: 0;
+  background-color: #f8ca08;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+#navbar {
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#main {
+  margin: 0 20%;
+  padding: 20px 50px 50px;
+  background: #fff;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
