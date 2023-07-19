@@ -30,7 +30,7 @@ const Home = () => {
               Resume
             </a>
             /<a href="mailto:trivektor@gmail.com">Email</a>/
-            <a href="github.com/trivektor" target="_blank">
+            <a href="https://github.com/trivektor" target="_blank">
               Github
             </a>
           </nav>
