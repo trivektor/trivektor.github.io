@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ h3 {
 }
 
 #main {
-  width: 400px;
+  width: 300px;
   margin: 0 auto;
   height: 100%;
   padding: 20px;
