@@ -16,17 +16,16 @@ const Home = () => {
           <p>
             Hi there! I'm Tri, a passionate JavaScript developer with over 10
             years of experience in the field. Throughout my journey, I've had
-            the privilege of working extensively with both Vue and React,
-            crafting dynamic and intuitive user interfaces that leave a lasting
-            impact.
+            the privilege of working extensively with JavaScript, crafting
+            dynamic and intuitive user interfaces that leave a lasting impact.
           </p>
           <p>
             From the early days of my career, I was drawn to the power and
-            flexibility of JavaScript, and it didn't take long for me to realize
-            its potential in building modern web applications. Over time, I
-            honed my skills and became well-versed in the intricacies of Vue and
-            React, two frameworks that have revolutionized the way we create web
-            experiences.
+            flexibility of the language, and it didn't take long for me to
+            realize its potential in building modern web applications. Over
+            time, I honed my skills and became well-versed in the intricacies of
+            Vue and React, two frameworks that have revolutionized the way we
+            create web experiences.
           </p>
           <p>
             I find great joy in bringing ideas to life through code, turning
