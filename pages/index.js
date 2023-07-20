@@ -5,7 +5,9 @@ export default function IndexPage() {
   return (
     <div>
       <Head>
-        <title>Tri Vuong | JS Developer</title>
+        <title>
+          Tri Vuong | Unlocking the Web's Potential: Your Vision, My Code.
+        </title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
