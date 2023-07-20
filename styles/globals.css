@@ -63,11 +63,11 @@ ul {
   display: block;
   margin: 0 auto;
   float: left;
-  height: 80px;
+  height: 90px;
 }
 
 #tag-line {
-  margin-left: 100px;
+  margin-left: 110px;
   margin-bottom: 20px;
   font-weight: 500;
 }

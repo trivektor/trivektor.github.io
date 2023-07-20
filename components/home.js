@@ -1,4 +1,4 @@
-import profilePic from "./picofme.png";
+import profilePic from "./profile-pic.png";
 
 const Home = () => {
   return (
