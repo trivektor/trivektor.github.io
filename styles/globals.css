@@ -5,6 +5,7 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 0;
+  letter-spacing: 0.3px;
   background-image: linear-gradient(
     to right top,
     #ca3535,
@@ -32,7 +33,7 @@ a {
   margin: 20px auto;
   padding: 20px;
   background: #fff;
-  box-shadow: 0 6px 26px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 26px -2px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
@@ -72,10 +73,20 @@ ul {
 }
 
 #tech-stack li {
-  border: 1px solid #ccc;
-  padding: 4px 8px;
+  border: 1px solid #555;
+  padding: 5px 10px;
   line-height: 1;
   border-radius: 20px;
-  margin: 0 5px 5px 0;
+  margin: 0 10px 10px 0;
   display: inline-block;
+}
+
+#resume-cta {
+  background: #ef551c;
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -59,17 +59,24 @@ const Home = () => {
             can't wait to see where the next 10 years take me in this
             ever-thriving industry. Let's build something amazing together!
           </p>
+          <a
+            id="resume-cta"
+            href="https://docs.google.com/document/d/1ludtuLBCF1Too4wHOXu6xN5O5L_aej_L1foKm_cOwbo/edit?usp=sharing"
+            target="_blank"
+          >
+            View My Resume
+          </a>
         </section>
         <section>
           <h2 className="section-heading">Tech Stack</h2>
           <ul id="tech-stack">
             <li>Vue JS</li>
             <li>React JS</li>
-            <li>Svelte</li>
+            <li>Svelte JS</li>
             <li>Node JS</li>
             <li>Ruby</li>
             <li>Go</li>
-            <li>Postgres</li>
+            <li>PostgreSQL</li>
             <li>MongoDB</li>
             <li>GraphQL</li>
           </ul>
