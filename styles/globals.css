@@ -81,7 +81,24 @@ ul {
   display: inline-block;
 }
 
-#resume-cta {
+.form-control {
+  border: 1px solid #cacaca;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  background: rgb(248, 250, 252);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
   background: #111;
   color: #fff;
   display: block;
@@ -89,4 +106,14 @@ ul {
   border-radius: 20px;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: normal;
+}
+
+.btn:disabled {
+  background: #ddd;
 }

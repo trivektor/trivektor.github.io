@@ -1,4 +1,5 @@
 import profilePic from "./profile-pic.png";
+import Contact from "./contact";
 
 const Home = () => {
   return (
@@ -59,7 +60,7 @@ const Home = () => {
             ever-thriving industry. Let's build something amazing together!
           </p>
           <a
-            id="resume-cta"
+            className="btn"
             href="https://docs.google.com/document/d/1ludtuLBCF1Too4wHOXu6xN5O5L_aej_L1foKm_cOwbo/edit?usp=sharing"
             target="_blank"
           >
@@ -100,7 +101,7 @@ const Home = () => {
         </section>
         <section>
           <h2 className="section-heading">Contact</h2>
-          <p>Coming Soon</p>
+          <Contact />
         </section>
       </section>
     </main>
