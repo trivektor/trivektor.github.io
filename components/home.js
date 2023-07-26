@@ -13,51 +13,57 @@ const Home = () => {
               <div>Unlocking the Web's Potential: Your Vision, My Code.</div>
             </div>
           </div>
-
           <p>
-            Hi there! I'm Tri, a passionate JavaScript developer with over 10
-            years of experience in the field. Throughout my journey, I've had
-            the privilege of working extensively with JavaScript, crafting
-            dynamic and intuitive user interfaces that leave a lasting impact.
+            Hey there! I'm a passionate web developer who loves crafting
+            beautiful and functional websites. With a keyboard at my fingertips
+            and a creative mind at work, I'm on a mission to make the web a
+            better place, one line of code at a time.
           </p>
+          <h4>💻 Bringing Ideas to Life</h4>
           <p>
-            From the early days of my career, I was drawn to the power and
-            flexibility of the language, and it didn't take long for me to
-            realize its potential in building modern web applications. Over
-            time, I honed my skills and became well-versed in the intricacies of
-            Vue and React, two frameworks that have revolutionized the way we
-            create web experiences.
+            From conceptualizing eye-catching designs to bringing them to life
+            with HTML, CSS, and JavaScript ✨, I thrive on turning innovative
+            ideas into fully functional websites. Whether it's a sleek
+            portfolio, a dynamic web app, or an intuitive user interface, I pour
+            my heart into every project I undertake.
           </p>
+          <h4>🌐 Embracing the Power of the Web</h4>
           <p>
-            I find great joy in bringing ideas to life through code, turning
-            complex problems into elegant solutions. Whether it's architecting
-            the frontend of a large-scale application or collaborating with a
-            team to deliver outstanding user experiences, I thrive on challenges
-            that push my boundaries.
+            The web is a vast playground of endless possibilities, and I'm
+            always excited to explore new technologies and frameworks 🎯.
+            Constantly learning and growing in this ever-evolving landscape is
+            what keeps me energized and inspired to create exceptional digital
+            experiences.
           </p>
+          <h4>🌟 Collaborate and Innovate</h4>
           <p>
-            My journey as a JavaScript developer has been a continuous learning
-            experience. Staying up-to-date with the latest trends and best
-            practices is vital in this ever-evolving landscape. Throughout my
-            career, I've contributed to open-source projects, attended
-            conferences, and actively engaged with the developer community to
-            share insights and gain knowledge.
+            Collaboration is at the heart of what I do. Working with like-minded
+            individuals and teams allows me to learn from others while
+            contributing my skills to exciting projects 🤝. Let's create
+            something amazing together!
           </p>
+          <h4>📚 Knowledge Sharing</h4>
           <p>
-            Aside from technical expertise, I pride myself on being a team
-            player and an effective communicator. I believe that fostering a
-            collaborative and inclusive environment leads to better outcomes and
-            a stronger team spirit. I enjoy mentoring junior developers and
-            believe in the importance of cultivating a learning culture within
-            the organization.
+            I believe in the power of knowledge sharing. When I'm not coding,
+            you can find me writing helpful blog posts, creating coding
+            tutorials, and participating in web development communities to give
+            back 📝. Learning is a journey, and I'm thrilled to have you
+            alongside me.
           </p>
+          <h4>📈 Always Evolving</h4>
           <p>
-            As I reflect on my journey as a JavaScript developer, I am grateful
-            for the opportunities that have come my way, the challenges that
-            have helped me grow, and the incredible people I've had the pleasure
-            of working with. I'm excited about the future of web development and
-            can't wait to see where the next 10 years take me in this
-            ever-thriving industry. Let's build something amazing together!
+            The world of web development is fast-paced and ever-changing. I'm
+            committed to staying up-to-date with the latest trends and best
+            practices, ensuring that my work stands at the forefront of modern
+            web development.
+          </p>
+          <h4>✉️ Get in Touch!</h4>
+          <p>
+            Thank you for visiting my portfolio. I'm eager to connect with
+            fellow developers, clients, and anyone with a passion for the web.
+            Let's discuss your next project or just geek out about web
+            development! Feel free to drop me a message using the contact form
+            below. Let's build something extraordinary together! 🚀
           </p>
           <a
             className="btn"
