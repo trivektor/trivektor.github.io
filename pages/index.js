@@ -8,6 +8,19 @@ export default function IndexPage() {
         <title>
           Tri Vuong | Unlocking the Web's Potential: Your Vision, My Code.
         </title>
+        <meta
+          name="description"
+          content="Tri Vuong web developer's portfolio"
+          key="desc"
+        />
+        <meta
+          property="og:title"
+          content="Tri Vuong - Web Developer | Unlocking the Web's Potential: Your Vision, My Code"
+        />
+        <meta
+          property="og:description"
+          content="Tri Vuong web developer's portfolio"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
