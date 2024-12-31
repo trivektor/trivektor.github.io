@@ -6,14 +6,19 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Script
-        async
         src="https://www.googletagmanager.com/gtag/js?id=G-KFCSC6FMS3"
-      ></Script>
-      <Script>
-        window.dataLayer = window.dataLayer || []; function gtag(){" "}
-        {dataLayer.push(arguments)}
-        gtag('js', new Date()); gtag('config', 'G-KFCSC6FMS3');
-      </Script>
+        onLoad={() => {
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            " ";
+          }
+          {
+            dataLayer.push(arguments);
+          }
+          gtag("js", new Date());
+          gtag("config", "G-KFCSC6FMS3");
+        }}
+      />
       <Component {...pageProps} />
       <Analytics />
     </>
